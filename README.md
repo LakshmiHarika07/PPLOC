@@ -190,7 +190,7 @@ Finally, to recreate the results please follow the above mentioned steps (Instru
 
 ***Additional:***
 To ensure the proper functioning of Encrypted Multisensor Information Filter, we also simulated theoretical measurements.
-You can find the code of simulation in [Simulation_code](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code//Simulation_code) folder
+You can find the code of simulation in [Simulation_code](https://github.com/LakshmiHarika07/PPLOC/tree/main/Simulation_Code) folder
 To run the simulation code, please follow the instructions specified in [Simulation document](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code/Code_Doc.pdf)
 
 
