@@ -79,7 +79,7 @@ We have a total of 5 Rasberry Pi's which are being used as follows:
 3. Central Node:
 > Here we generate Key (publicKey and PaillierPrivateKey) and we transport this publicKey (generated from [Decryption](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/CentralNode/Decryption.py)) using [CentralServer](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/CentralNode/CentralServer.py) to the sensors for Encryption. Also, the localised aggreagated measurement received from LocalHub sensor is decrypted at [Decryption](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/CentralNode/Decryption.py). This decrypted measurements (Localised sensor measurement) are used to run the [InformationFilter](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/CentralNode/InformationFilter.py).
 
-![Communication map](IMAGES/PPLOC_Communication_map.png)
+![Communication map](Images/PPLOC_Communication_map.png)
 
 
 ## Instructions to run the setup:
@@ -97,7 +97,7 @@ Note: Refer the above figure while going through the instructions
     [***Functionality:*** The started central server displays the following: `wsgi starting up on http://<ipaddress>`]
 
 <p align="center">
-<img  width="800" height="500" src="IMAGES/CentralNode.jpeg" alt="Central Node"/>
+<img  width="800" height="500" src="Images/CentralNode.jpeg" alt="Central Node"/>
 </p>
 
 3. Once the server has started, remove the monitor, keyboard+mouse and connect it to the **local hub** ( **Raspberry Pi #2**), open terminal and navigate to **ams-48_LocalServer+C** and run the [LocalServer.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/LocalHubNode/LocalServer.py) code (***Terminal window is preferred for this process as we use the Thonny IDE to run [ObjectTracking.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/LocalHubNode/ObjectTracking.py) code***).
@@ -117,7 +117,7 @@ Server
 
     At the ObectTracking.py end we get this output for the time being : `connection established ; Sending Data to server`]
 
-<img  src="IMAGES/LocalHubNode.jpeg" alt="LocalHub Node" width="800"/>
+<img  src="Images/LocalHubNode.jpeg" alt="LocalHub Node" width="800"/>
 
 5. Once the ***LocalServer*** is up and running in ***Pi #2***, as we also started one of the [ObjectTracking.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/LocalHubNode/ObjectTracking.py) program we can now tranfer the monitor and Keyboard+mouse to the next sensor (**Raspberry Pi #4**) and open task manager, navigate to home directory (pi Home), then to folder **ams-51_C** and run [ObjectTracking.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/SensorNodes/Node4/ObjectTracking.py) code in the IDE.
 
@@ -125,7 +125,7 @@ Server
 
     At this sensor we can see at ObectTracking.py end, this output for the time being : `connection established ; Sending Data to server`]
 
-<img  src="IMAGES/SensorNode.jpeg" alt="Sensor Node" width="800"/>
+<img  src="Images/SensorNode.jpeg" alt="Sensor Node" width="800"/>
 
 6. Next, we will move to the sensor **Raspberry Pi #1** and again open task manager, and then we will navigate to home directory (pi Home), then to folder **ams-49_C** and run [ObjectTracking.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/SensorNodes/Node1/ObjectTracking.py) code in the IDE.
 
@@ -171,20 +171,20 @@ Incase we run the central server again we need to make sure we deleted the previ
 **Results:** 
 When we ran the filter on 4 nodes with random movement of laser pointer below figure was the resulting plot
 
-<img  src="IMAGES/resultPlot.jpeg" alt="result plot" width="600"/>
+<img  src="Images/resultPlot.jpeg" alt="result plot" width="600"/>
 
 We covered the cameras with a transparent tape and ran the filter on a fixed path (along the tape placed on the floor) to see the effect when there is a noise (as in below images)
 
-<img  src="IMAGES/IMG_0588.jpeg" alt="frame image" width="600"/>
+<img  src="Images/IMG_0588.jpeg" alt="frame image" width="600"/>
 
-<img  src="IMAGES/IMG_0587.jpeg" alt="frame image 2" width="600"/>
+<img  src="Images/IMG_0587.jpeg" alt="frame image 2" width="600"/>
 
-<img  src="IMAGES/blurplot.jpeg" alt="plot" width="600"/>
+<img  src="Images/blurplot.jpeg" alt="plot" width="600"/>
 
 
 We also ran the filter without the tape (considering no noise) on the same path and plotted the below graph
 
-<img  src="IMAGES/withfilter.jpeg" alt="plot1" width="600"/>
+<img  src="Images/withfilter.jpeg" alt="plot1" width="600"/>
 
 Finally, to recreate the results please follow the above mentioned steps (Instructions to run the setup) and can verify with plots.
 
