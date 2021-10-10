@@ -165,7 +165,7 @@ Server
 Incase we run the central server again we need to make sure we deleted the previous Plot.png and run the central server
 
 - Note 2:
->The [LocalServer](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code/Local_Hub_Node/LocalServer.py) waits for data from each sensor to establish a synchronous communication. If in case, the [LocalServer](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/LocalHubNode/LocalServer.py) is stopped manually, repeat from steps 3. If we stop [CentralServer](https://code.ovgu.de/mushunur/pploc/-/blob/master/PPLOC_FinalCode/CentralNode/CentralServer.py), then we have to stop every program and follow the instructions from initial step.
+>The [LocalServer](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code/Local_Hub_Node/LocalServer.py) waits for data from each sensor to establish a synchronous communication. If in case, the [LocalServer](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code/Local_Hub_Node/LocalServer.py) is stopped manually, repeat from steps 3. If we stop [CentralServer](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code//Central_Node/CentralServer.py), then we have to stop every program and follow the instructions from initial step.
 
 
 **Results:** 
@@ -190,8 +190,8 @@ Finally, to recreate the results please follow the above mentioned steps (Instru
 
 ***Additional:***
 To ensure the proper functioning of Encrypted Multisensor Information Filter, we also simulated theoretical measurements.
-You can find the code of simulation in [Simulation_code](https://code.ovgu.de/mushunur/pploc/-/tree/master/Simulation_code) folder
-To run the simulation code, please follow the instructions specified in [Simulation document](https://code.ovgu.de/mushunur/pploc/-/blob/master/Code_Doc.pdf)
+You can find the code of simulation in [Simulation_code](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code//Simulation_code) folder
+To run the simulation code, please follow the instructions specified in [Simulation document](https://github.com/LakshmiHarika07/PPLOC/blob/main/Final_Code/Code_Doc.pdf)
 
 
 
