@@ -70,7 +70,7 @@ We have a total of 5 Rasberry Pi's which are being used as follows:
 
 > In the above mentioned scripts except ObjectTracking.py, need to be deployed at each individual sensor nodes. For ObjectTracking.py, we need to calibrate the origin for each sensor seperatly in the below lines shown in the image.
 
-<img  src="IMAGES/calibrationlines.png" alt="Calibration" width="600"/>
+<img  src="Images/calibrationlines.png" alt="Calibration" width="600"/>
 
 
 2. LocalHub Sensor:
