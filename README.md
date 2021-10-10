@@ -55,7 +55,7 @@ The below install is for manual operation of the required libraries in Raspberry
 
 * Install remaining requirements using pip3 install for libraries mentioned in [requirements.txt](https://github.com/LakshmiHarika07/PPLOC/blob/main/requirements.txt)
 
-To install all the libraries at once, run the [prerequisites.py](https://code.ovgu.de/mushunur/pploc/-/blob/master/prerequisites.py)
+To install all the libraries at once, run the [prerequisites.py](https://github.com/LakshmiHarika07/PPLOC/blob/main/prerequisites.py)
 
 
 ## Design and Implementation:
